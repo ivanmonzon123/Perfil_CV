@@ -8,7 +8,6 @@ function App() {
     <BrowserRouter>
         <NavbarComp/>
         <Routes>
-
           {/*rutas publicas */}
           <Route path="/" element={<Home/>}/>
         </Routes>
