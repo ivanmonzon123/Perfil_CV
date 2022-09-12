@@ -1,0 +1,9 @@
+.name-skill{
+    display: flex;
+    justify-content: space-between;
+}
+.bar-progres{
+    height: 6px;
+    width: 100%;
+    background-color: white;
+}

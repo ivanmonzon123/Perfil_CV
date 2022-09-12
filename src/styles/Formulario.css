@@ -1,0 +1,32 @@
+.titulo-formulario{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.name-and-email{
+    margin: 0;
+    padding: 0;
+}
+.campos-responsive{
+    width: 49%;
+}
+.buton-form{
+    color: white;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 20px;
+    border: 3px solid white;
+    background-color: rgb(255, 0, 115);
+    width: 170px;
+}
+.buton-form:hover{
+    background-color: transparent;
+    color: black;
+    border: 3px solid rgb(255, 0, 115);
+}
+@media (max-width: 600px) {
+    .campos-responsive{
+        width: 100%;
+    }
+  }
