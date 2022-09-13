@@ -27,7 +27,7 @@ const Formulario = () => {
       />
       <Form.Control
         className="mb-3"
-        placeholder="Tu mensaje..."
+        placeholder="Porfavor escribe tu mensaje..."
         as="textarea"
         aria-label="With textarea"
       />
